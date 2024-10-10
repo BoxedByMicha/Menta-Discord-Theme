@@ -177,6 +177,16 @@ section[aria-label="User area"] * {
     box-shadow: none !important; / Remove any shadows */
 }
 
+/* User Area Icon Recolor */
+.panels_a4d4d9 .lottieIcon_f73ef7 :not(defs *)[fill][fill-opacity] {
+  fill: white;
+}
+.lottieIcon_f73ef7 > svg > g > g > g:nth-child(1) > g > g:nth-child(2) > g:nth-child(2) > path {
+  stroke: white;
+}
+
+@import url(https://davart154.github.io/Themes/Snippets/Colored%20Mentions/ColoredMentionsSource.css);
+
 /*Permissions*/
 /*
 - You do not have the rights to use our theme name Menta™ on other projects
